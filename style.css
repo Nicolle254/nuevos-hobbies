@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #f5f0ff, #e0d4ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caja central */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+    color: #5a189a;
+}
+
+/* Texto */
+p {
+    color: #444;
+}
+
+/* Botones */
+a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #9d4edd;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Hover */
+a:hover {
+    background-color: #7b2cbf;
+}
